@@ -14,6 +14,9 @@ function population(data){
         let countryImg = document.createElement('img');
         countryImg.classList.add = ('flag');
 
+        countryImg.style.width = "400px";
+        
+
         countryImg.setAttribute = ('img');
 
         let countryName = document.createElement('h1');

@@ -1,12 +1,14 @@
 .container{
     background-color: rgb(243, 243, 243);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px,450px ));
+
     
 }
 
-.card-container{
-  
+#card-container{
+  display: grid;
+  grid-template-columns:repeat( auto-fit, minmax(300px, 400px)) ;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 25px;
 }
 .flag{
     width: 400px;
